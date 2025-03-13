@@ -14,8 +14,6 @@ public class Adresse implements Serializable {
     private String state;
     private String street;
     private String city;
-    @OneToOne(cascade = CascadeType.ALL)
-    private Student student;
     public int getAdresse_id() {
         return adresse_id;
     }
